@@ -1,0 +1,7 @@
+# Secrets and local files — never commit or upload .env (it holds the database password)
+.env
+.env.*
+!.env.example
+!.env.production.example
+node_modules/
+*.log
